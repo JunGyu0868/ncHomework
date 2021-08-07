@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.page-item {
+    width: 25px;
+    cursor: pointer;
+    color: grey;
+
+    /* border: 0.5px solid grey; */
+}
+
+.page-item-selected {
+    width: 25px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    /* border: 0.5px solid grey; */
+}

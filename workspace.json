@@ -15,10 +15,7 @@
             "main": "apps/nc-homework/src/main.tsx",
             "polyfills": "apps/nc-homework/src/polyfills.ts",
             "tsConfig": "apps/nc-homework/tsconfig.app.json",
-            "assets": [
-              "apps/nc-homework/src/favicon.ico",
-              "apps/nc-homework/src/assets"
-            ],
+
             "styles": ["apps/nc-homework/src/styles.css"],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
@@ -99,6 +96,27 @@
           "executor": "@nrwl/linter:eslint",
           "options": {
             "lintFilePatterns": ["apps/nc-homework-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "pagination": {
+      "root": "libs/pagination",
+      "sourceRoot": "libs/pagination/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/pagination/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/pagination"],
+          "options": {
+            "jestConfig": "libs/pagination/jest.config.js",
+            "passWithNoTests": true
           }
         }
       }

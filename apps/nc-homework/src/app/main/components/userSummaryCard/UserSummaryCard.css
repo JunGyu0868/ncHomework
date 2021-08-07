@@ -1,0 +1,35 @@
+.UserSummaryCard {
+    flex: 0;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background: #dee2e6;
+    text-align: center;
+}
+
+.UserSummaryCard .imageStyle {
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+}
+
+.UserSummaryCard .idStyle {
+    color: darkgray;
+}
+.UserSummaryCard .textTruncate {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.UserSummaryCard .nameStyle {
+    font-weight: bold;
+}
+
+.UserSummaryCard .linkArea {
+    margin-top: 10px;
+    text-align: left;
+    padding-top: 10px;
+    border-top: 1px solid grey;
+}

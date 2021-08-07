@@ -1,0 +1,12 @@
+.UserInfo {
+    font-size: large;
+}
+
+.UserInfo .idStyle {
+    color: grey;
+}
+
+.UserInfo .nameStyle {
+    font-weight: bolder;
+    font-size: xx-large;
+}

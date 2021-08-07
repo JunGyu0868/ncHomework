@@ -33,6 +33,9 @@
     "nc-homework-e2e": {
       "tags": [],
       "implicitDependencies": ["nc-homework"]
+    },
+    "pagination": {
+      "tags": []
     }
   }
 }
